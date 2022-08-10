@@ -121,7 +121,7 @@ li a {
             </div>
             <div class="nav-btn">
                 <a href= "/signin-signup-terms/sign-in.html"><button class="sign-in">Sign In</button></a>
-               <a href="/signin-signup-terms"> <button class="sign-up">Sign Up</button>
+               <a href="/signin-signup-terms/sign-up.html"> <button class="sign-up">Sign Up</button>
             </div>
         </nav>
 </header>
