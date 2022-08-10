@@ -132,10 +132,11 @@ class Header extends HTMLElement {
   }
 
   connectedCallback() {
-    const shadowRoot = this.attachShadow({ mode: "closed" })
+    const shadowRoot = this.attachShadow({ mode: "closed" });
 
     shadowRoot.appendChild(headerTemplate.content);
   }
 }
+
 
 customElements.define('header-component', Header);
